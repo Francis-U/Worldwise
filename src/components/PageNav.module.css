@@ -50,3 +50,11 @@ a.ctaLink:visited {
   background-color: var(--color-dark--1);
   transform: translateY(-1px);
 }
+
+.userGreeting {
+  font-size: 1.9rem;
+
+  font-weight: 700;
+  color: var(--color-light--2);
+  /* margin: 0; */
+}

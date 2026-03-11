@@ -4,7 +4,7 @@ import Logo from "./Logo";
 import { useAuth } from "../contexts/FakeAuthContext";
 
 function PageNav() {
-  const { isAuthenticated, logout } = useAuth();
+  const { isAuthenticated, user, logout } = useAuth();
 
   const navigate = useNavigate();
 
@@ -18,6 +18,9 @@ function PageNav() {
       <Logo />
 
       <ul>
+        <p className={styles.userGreeting}>
+          {isAuthenticated ? `Hi,   ${user.name}` : ""}
+        </p>
         <li>
           <NavLink to="/pricing">Pricing</NavLink>
         </li>
