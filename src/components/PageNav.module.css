@@ -32,3 +32,21 @@ a.ctaLink:visited {
   padding: 0.8rem 2rem;
   border-radius: 7px;
 }
+
+.nav button {
+  background-color: var(--color-dark--2);
+  border-radius: 7px;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.nav button:hover {
+  background-color: var(--color-dark--1);
+  transform: translateY(-1px);
+}
