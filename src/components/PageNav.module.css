@@ -54,7 +54,7 @@ a.ctaLink:visited {
 .userGreeting {
   font-size: 1.9rem;
 
-  font-weight: 700;
-  color: var(--color-light--2);
+  font-weight: 600;
+  color: var(--color-brand--2);
   /* margin: 0; */
 }
