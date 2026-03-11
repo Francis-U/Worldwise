@@ -7,8 +7,7 @@ import {
   // useState,
 } from "react";
 
-const BASE_URL = "http://localhost:9000";
-
+const BASE_URL = "https://worldwise-d9qh.onrender.com";
 const CitiesContext = createContext();
 
 const initialState = {
